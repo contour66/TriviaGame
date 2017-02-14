@@ -1,0 +1,126 @@
+body {
+background-color: black;
+}
+
+#logo {
+	max-width: 600px;
+	margin-left: 80px;
+	
+
+
+
+}
+#main-box {
+	height: 555px;
+	width: 800px;
+	background-image: url("../images/brain.jpg");
+	align-content: center;
+
+	border-radius: 5px;
+	border-color: #C5AA39;
+	border-style: groove;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: auto;
+	background-repeat: no-repeat;
+	margin-top: 10px;
+}
+
+#rules {
+	background-color: #CEAA24;
+	font-family: 'Cantarell', sans-serif;
+	border: black 2px solid;
+	border-radius: 5px;
+	font-size: 16pt;
+	text-align: center;
+	font-weight: bold;
+	border-color:#CDD1D3;
+	opacity: .9;
+
+
+}
+
+.text{ 
+	/*background-image: url("../images/dark-grungewall.png");*/
+	border: 3px black solid;
+	text-align: center;
+	margin: 10px;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	/*border-style: solid;
+	border-radius: 2px;*/
+	background-color: grey;
+	opacity: .9;
+/*	border-color:#CDD1D3;*/
+
+
+	
+	}
+/*
+.numbers{
+
+	font-size: 30px;
+	color: #C5AA39;*/
+}
+.answers {
+	margin-left: 100px;
+	height: auto;
+	background-color: transparent;
+	max-width: 600px
+}
+
+button{
+	/*border-radius: 5px;
+	border-top-color: #CEAA24;*/
+	background-color: transparent;
+	color: yellow;
+	border: none;
+}
+#numberOne {
+/*	
+	background-image: url("../images/red.jpg");
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;
+	margin-left: 33px;*/
+
+}
+
+
+#numberTwo {
+	
+	/*background-image: url("../images/green.jpg");
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;*/
+}
+
+#numberThree {
+	
+	/*background-image: url("../images/blue.jpg");
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;*/
+}
+
+#numberFour {
+	/*background-image: url("../images/gold.jpg");
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px; */
+}
+
+.guesses {
+	display: none;
+}
+
+#question, #time, #timer{
+	color: yellow;
+
+}
+

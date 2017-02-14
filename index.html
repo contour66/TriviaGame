@@ -1,0 +1,113 @@
+<!DOCtype HTML></!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game!</title>
+	<link href="https://fonts.googleapis.com/css?family=Cantarell|Orbitron" rel="stylesheet">
+	 <link rel ="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+	
+	
+</head>
+<body>
+	<div class="container">
+		
+		
+
+		<div class="row">
+			<div class="col-md-2"></div>
+  			<div class="col-md-8" id="main-box" >
+				
+				<div class="row">
+					<!-- <div class="col-md-1"></div> -->
+					<div class="col-md-12">
+						
+						<img src="assets/images/logo.png" alt="Trivia" id="logo">
+					<!-- <div class="col-md-1"></div> -->
+
+
+					</div>
+				</div>
+				
+				<div class="row" >
+					<div class="col-md-12">
+						<!-- <p id="rules">Gem Guardian is a game of skill and memory! </br> Click any gem to find it's value. </br>The goal is to match the Total Score to the Magic Number.</p> -->
+					</div>
+				</div>
+				
+				<div class="row" >
+					<div class="col-md-3" ></div>
+					<div class="col-md-6">
+						<div class="text" id="time"> 
+			 				Time Remaining
+							</br>
+							<span class= numbers id ="timer"></span>
+							</br>
+						</div>
+					</div>
+					<div class="col-md-3"></div>
+				</div>
+
+				<div class="row" >
+					<div class="col-md-3"></div>
+					<div class="col-md-6 text">
+						<div id="question"> 
+			 				<!-- Question
+			 				</br>
+							<span class="numbers" id ="magicNumber"></span>
+							</br> -->
+
+						</div>
+					</div>
+					<div class="col-md-3"></div>
+				</div>
+				
+					<div class="row answers">
+
+						<button class="col-md-12" id="numberOne"> </button>
+					</div>		
+					<div class="row answers">
+						<button class="col-md-12" id="numberTwo"> </button>
+					</div>		
+					<div class="row answers">
+						<button class="col-md-12" id="numberThree"></button>
+					</div>		
+					<div class="row answers">
+						<button class="col-md-12" id="numberFour"></button>
+						
+					</div>
+				
+				<div class="row guesses">
+					<!-- <div class="col-md-3"></div> -->
+				
+					<div class="col-md-12">
+						<div class="text">
+							Correct Answers
+		
+						<span class= "numbers" id ="wins"> 0 </span>
+						</div>
+					</div>
+				
+				</div>
+				<div class="row guesses" >
+					<
+					<div class="col-md-12">
+						<div class="text"> 
+							Incorrect Answers
+
+						<span class= "numbers" id ="losses">0</span>
+						</div>	
+					</div>
+			
+				</div>
+			
+			</div>
+			<div class="col-md-2"></div>
+
+		</div>
+	</div>
+	<script src= "https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js" ></script>
+
+</body>
+</html>
