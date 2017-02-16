@@ -26,7 +26,7 @@ background-color: black;
 	margin-top: 10px;
 }
 
-#rules {
+/*#rules {
 	background-color: #CEAA24;
 	font-family: 'Cantarell', sans-serif;
 	border: black 2px solid;
@@ -38,7 +38,7 @@ background-color: black;
 	opacity: .9;
 
 
-}
+}*/
 
 .text{ 
 	/*background-image: url("../images/dark-grungewall.png");*/
@@ -48,11 +48,13 @@ background-color: black;
 	font-family: 'Orbitron', sans-serif;
 	font-size: 24px;
 	font-weight: bold;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
 	/*border-style: solid;
 	border-radius: 2px;*/
 	background-color: grey;
 	opacity: .9;
+	max-width: 600px;
+
 /*	border-color:#CDD1D3;*/
 
 
@@ -65,10 +67,12 @@ background-color: black;
 	color: #C5AA39;*/
 }
 .answers {
-	margin-left: 100px;
+	/*margin-left: 100px;*/
 	height: auto;
-	background-color: transparent;
-	max-width: 600px
+	background-color: grey;
+	/*max-width: 600px*/
+	
+
 }
 
 button{
@@ -78,7 +82,7 @@ button{
 	color: yellow;
 	border: none;
 }
-#numberOne {
+#numberOne, #numberTwo, #numberThree, #numberFour {
 /*	
 	background-image: url("../images/red.jpg");
 	background-repeat: no-repeat;
@@ -86,6 +90,17 @@ button{
 	height: 100px;
 	margin-right: 20px;
 	margin-left: 33px;*/
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	background-color: grey;
+	opacity: .9;
+	margin: 10px;
+	max-width: 400px;
+	border: green solid 3px;
+	/*width: auto;
+	height: auto;*/
+
 
 }
 
@@ -123,4 +138,6 @@ button{
 	color: yellow;
 
 }
-
+#question{
+	
+}
